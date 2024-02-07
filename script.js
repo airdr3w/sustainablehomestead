@@ -1,14 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2487.3">
-  <style type="text/css">
-  </style>
-</head>
-<body>
-</body>
-</html>
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassNAme('navbar-links')[0]
+
+toggleButtion.addEventListener('click', () => {
+	navbarLinks.classlist.toggle('active')
+})
