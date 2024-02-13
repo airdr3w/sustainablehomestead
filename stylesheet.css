@@ -13,7 +13,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #4cae4f;
-    color: white;
+    color: black;
 }
 
 .brand-title {
@@ -38,12 +38,12 @@ body {
 .navbar-links li a {
     display: block;
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 1rem;
 }
 
 .navbar-links li:hover {
-    background-color: #555;
+    background-color: #38ff59;
 }
 
 .toggle-button {
