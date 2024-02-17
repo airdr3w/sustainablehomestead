@@ -1,0 +1,14 @@
+.centered {
+	position: absolute;
+	font-family: "Playfair Display";
+	font-weight: 700;
+	font-size: 3.36rem;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+img bg {
+	object-fit: cover;
+}
+
